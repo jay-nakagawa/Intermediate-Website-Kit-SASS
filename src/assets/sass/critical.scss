@@ -463,6 +463,17 @@
         }
     }
 }
+/* --- NEW MEDIA QUERY FOR LARGER TABLETS (from 850px / 53.125rem and up) --- */
+@media only screen and (min-width: 53.125rem) {
+    #h-services-143 {
+        .cs-card-group {
+          
+            // A value of -3rem is -48px, which would be significantly less overlap.
+            margin-top: -4rem; 
+
+        }
+    }
+}
 
 /* Desktop - 1300px */
 @media only screen and (min-width: 81.25rem) {
